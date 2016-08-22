@@ -1,5 +1,8 @@
 #show-list {
   display: none;
+  background-image: url("../img/black.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .lists {
   cursor: pointer;
@@ -29,9 +32,9 @@ text-decoration: underline;
   background-image: -ms-linear-gradient(top, #294e66, #749eb8);
   background-image: -o-linear-gradient(top, #294e66, #749eb8);
   background-image: linear-gradient(to bottom, #294e66, #749eb8);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
   font-family: Arial;
   color: #ffffff;
   font-size: 12px;
@@ -47,4 +50,16 @@ text-decoration: underline;
   background-image: -o-linear-gradient(top, #365a70, #7bb5db);
   background-image: linear-gradient(to bottom, #365a70, #7bb5db);
   text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  background-image: url("../img/cat2.jpg");
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-size: cover;
+}
+.well {
+
 }
